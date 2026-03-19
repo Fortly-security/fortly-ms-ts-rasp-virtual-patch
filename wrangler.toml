@@ -1,0 +1,9 @@
+name = "pragma-fortly-dev-worker-rasp-virtual-patch"
+main = "src/worker.ts"
+compatibility_date = "2025-09-01"
+compatibility_flags = ["nodejs_compat_v2"]
+
+[[d1_databases]]
+binding = "DB_VIRTUAL_PATCHES"
+database_name = "pragma-fortly-dev-d1-rasp-virtual-patches"
+database_id = "placeholder-virtual-patches-id"
